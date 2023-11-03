@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagens/letra-a.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Arlei Domingos Portfólio</title>
 </head>
@@ -16,6 +17,7 @@
         <h2 data-aos="zoom-in" data-aos-delay="100"> { Arlei Sousa } </h2>
         <nav>
             <ul class="header-menu">
+                <li><a href="#tecnologias">Tecnologias</a></li>
                 <li><a href="#Projetos">Projetos</a></li>
                 <li><a href="#Formação">Formação</a></li>
                 <li><a href="#Contato">Contato</a></li>
@@ -33,12 +35,51 @@
 
     </main>
 
+    <div class="titulo-tecnologias">
+        <h3>{Tecnologias}</h3>
+    </div>
+        <section class="tecnologias container"  data-aos="fade-up" data-aos-delay="300" id="tecnologias">    
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <p>HTML</p>
+                    <img src="imagens/html2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <p>CSS</p>
+                    <img src="imagens/CSS2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <p>JavaScript</p>
+                    <img src="imagens/JavaScript.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <p>Tailwind CSS</p>
+                    <img src="imagens/tailwind.png" alt="">
+                </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+
+
         <div class="titulo-projeto">
             <h3>{Meus Projetos}</h3>
         </div>
     <div class="container">
         <section class="projetos" id="projetos" aria-label="projetos">
-          
             <div class="project-container" data-aos="fade-up" data-aos-delay="300">
                 <div class="project-card" >
                     <img src="imagens/devbarber.jpg" alt="Projeto 1">
@@ -152,6 +193,9 @@
         </div>
     </footer>
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 

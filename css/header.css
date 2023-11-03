@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: url(../imagens/bottom-right.svg) no-repeat top 50px left ;
 }
 
 .header h2 {

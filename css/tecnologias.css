@@ -1,0 +1,45 @@
+.titulo-tecnologias h3 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 100px auto 10px auto;
+  }
+
+  .swiper {
+    margin-top: 20px;
+    width: 700px;
+    height: 370px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .swiper-slide img {
+    margin: 0 auto;
+    height: 200px;
+ }
+
+ .swiper-slide p {
+  font-size: 2rem;
+  margin-bottom: 16px;
+ }
+
+ @media (max-width: 768px) {
+  .swiper {
+    width: 100%;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    height: 150px;
+  }
+
+  .swiper-slide p {
+    font-size: 1.5rem;
+  }
+
+}
