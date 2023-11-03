@@ -24,6 +24,11 @@
     height: 200px;
  }
 
+ .tailwind {
+  height: 300px;
+  width: 260px;
+ }
+
  .swiper-slide p {
   font-size: 2rem;
   margin-bottom: 16px;
