@@ -18,7 +18,8 @@
   }
 
 
-  .swiper-slide img {
+  .swiper-slide img,
+  .swiper-slide svg {
     margin: 0 auto;
     height: 200px;
  }
@@ -34,7 +35,8 @@
     height: 300px;
   }
 
-  .swiper-slide img {
+  .swiper-slide img,
+  .swiper-slide svg {
     height: 150px;
   }
 
